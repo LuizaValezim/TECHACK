@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="name">
+            <h1>Risk Analysis</h1>
+        </div>
+
+        <h2 class="sub-title">Total connections</h2>
+        <div class="text-section" id="Connect"></div>
+
+        <h2 class="sub-title">Cookies</h2>
+        <div class="text-section" id="cookies-amount"></div>
+        <div class="text-section" id="cookies-first-party-amount"></div>
+        <div class="text-section" id="cookies-third-party-amount"></div>
+        <div class="text-section" id="cookies-navigation-amount"></div>
+
+        <h2 class="sub-title">Local Data Storage</h2>
+        <div class="text-section" id="LocalS"></div>    
+
+        <h2 class="sub-title">Session Data Storage</h2>
+        <div class="text-section" id="SessionS"></div> 
+
+        <h2 class="sub-title">Finger Print</h2>
+        <div class="text-section" id="FingerPrint">0</div> 
+
+        <h2 class="sub-title">This website score</h2>
+        <div class="text-section" id="score"></div>
+
+        <script src="main.js"></script>
+        <script src="getCookies.js"></script>
+        <script src="getConnections.js"></script>
+        <script src="getlocalStorage.js"></script>
+        <script src="getFingerPrint.js"></script>
+        <script src="getSessionStorage.js"></script>
+
+    </body>
+</html>

@@ -1,0 +1,33 @@
+html, body {
+  width: 300px;
+  background-color:rgb(255, 255, 255);
+  padding: 0.2rem;
+}
+
+.name{
+  font-family: "Lucida Console", "Courier New", monospace;
+  color:rgb(29, 82, 162);
+  display: flex;
+  justify-content: center;
+  height: 30px;
+  line-height: 10px;
+}
+
+.sub-title{
+  font-family: "Lucida Console", "Courier New", monospace;
+  color: rgb(58, 112, 194);
+  height: 10px;
+}
+
+.text-section{
+  font-family: "Lucida Console", "Courier New", monospace;
+  color: rgb(0, 0, 0);
+}
+
+.score{
+  font-family: "Lucida Console", "Courier New", monospace;
+  text-align: center;
+  margin-top: 40px;
+  font-size: 40px;
+  color: rgb(125, 35, 160);
+}

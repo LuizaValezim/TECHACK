@@ -1,0 +1,31 @@
+{
+    "manifest_version": 2,
+    "name": "risk-analysis",
+    "version": "1.0",
+  
+    "description": "Risk Analysis",
+  
+    "icons": {
+      "48": "src/img.png"
+    },
+
+    "browser_action": {
+        "default_icon": "src/img.png",
+        "default_title": "Risk Analysis",
+        "default_popup": "src/extension.html"
+    },
+
+    "permissions": [
+        "tabs",
+        "cookies",
+        "<all_urls>",
+        "storage"
+    ],
+  
+    "content_scripts": [
+      {
+        "matches": ["*://*/*"],
+        "js": ["src/main.js"]
+      }
+    ]
+  }
